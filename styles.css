@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: 'Albert Sans', Arial, sans-serif;
 }
 
 header {
@@ -41,7 +42,6 @@ li {
     list-style: none;
     cursor: pointer;
     font-size: 19px;
-    font-family: 'Albert Sans', Arial, sans-serif;
 }
 
 li:hover {
@@ -49,3 +49,16 @@ li:hover {
     border: 1px dotted #000000;
 }
 
+#recepcao {
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nome {
+    font-size: 3em;
+    color: #333;
+}
