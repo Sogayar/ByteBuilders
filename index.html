@@ -1,48 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ByteBuilders</title>
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Adicionando fonte Albert Sans -->
-    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./carrocel_styles.css">
+    <script src="./carrocel.js" defer></script>
 </head>
+
 <body>
     <header>
-        <div class="header-container">
-            <img id="logo" src="images/Logo_semF.png" alt="ByteBuilders Logo" />
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Nossa Equipe</a></li>
-                    <li><a href="#">Contatos</a></li>
-                </ul>
-            </nav>
-        </div>
+        <img id="logo" src="./images/Logo_semF.png">
+        <!-- <div id="conteiner_R&L">
+            <button class="Registro">Registre-se</button>
+            <button class="Login">Login</button>
+        </div> -->
+        <nav>
+            <ul>
+                <li><a class="opHeader" href="#">Home</a></li>
+                <li><a class="opHeader" href="#">Sobre nós</a></li>
+                <li><a class="opHeader" href="#">Serviços</a></li>
+                <li><a class="opHeader" href="#">Nossa Equipe</a></li>
+                <li><a class="opHeader" href="#">Contatos</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section id="recepcao">
-            <h1 class="Nome"><b>ByteBuilders</b></h1>
-            <h2>Your tech business</h2>
-        </section>
-        <section id="carrosselImages">
-            <img src="images/Seta_Left.png" alt="Seta esquerda" />
-            <img src="images/Imagem 1.webp" alt="Imagem 1" width="5000" />
-            <img src="images/Seta.png" alt="Seta direita" />
-        </section>
-    </main>
-    <footer>
-        <div id="redes_sociais">
-            <a href="#"><img src="images/Whatsapp.png" alt="WhatsApp" /></a>
-        </div>
-        <img id="logo" src="images/Logo_semF.png" alt="ByteBuilders Logo" />
-        <span>Todos os direitos reservados ©</span>
-        <span>Desenvolvido por: Caetano José</span>
-    </footer>
-    <script src = "script.js"></script>
-</body>
-</html>
 
+    <div id="recepcao">
+        <h1 class="Nome"><b>ByteBuilders</b></h1>
+        <h2>Your tech business</h2>
+    </div>
+
+    <section class="slider">
+        <div class="slider-conteiner">
+
+            <input type="radio" name="btn_radio" id="radio1">
+            <input type="radio" name="btn_radio" id="radio2">
+            <input type="radio" name="btn_radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img src="./Imagens_Carrocel/Imagem_1.webp" alt="slide 1">
+            </div>
+            <div class="slide-box">
+                <img src="./Imagens_Carrocel/Imagem_2.webp" alt="slide 1">
+            </div>
+            <div class="slide-box">
+                <img src="./Imagens_Carrocel/Imagem_3.webp" alt="slide 1">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <div id="carrosselImages">
+        <img src="./images/Seta_Left.png">
+        <img src="./images/Imagem 1.webp" width="500px">
+        <img src="./images/Seta.png">
+    </div> -->
+
+    <footer style="background-color: gray;">
+        <div id="redes_sociais">
+            <a href="">
+                <img src="./images/GitHub-Symbol.png">
+                <img src="./images/Whatsapp.png">
+            </a>
+        </div>
+        <img id="logo1" src="./images/Logo_semF.png">
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: Caetano José, Henrique Sogayar, César Brossi e Eduardo Rabelo</span>
+    </footer>
+</body>
+
+</html>

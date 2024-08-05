@@ -1,57 +1,61 @@
+@import url('https: //fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    box-sizing: border-box;
-}
-
-body {
     font-family: 'Albert Sans', Arial, sans-serif;
-    line-height: 1.6;
 }
 
 header {
-    background-color: #ffffffe5; /* Redefinindo a cor de fundo para um tom de vermelho */
-    padding: 20px;
-}
-
-.header-container {
+    height: 300px;
+    background-color: #ffffff;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
 #logo {
-    width: 100px; /* Ajustando o tamanho do logo */
+    width: 80px;
 }
 
-nav ul {
+nav {
+    width: 100%;
+    height: 200px;
+}
+
+ul {
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.opHeader {
+    color: black;
+}
+
+li {
     display: flex;
     justify-content: center;
+    align-items: center;
     list-style: none;
+    cursor: pointer;
+    font-size: 19px;
 }
 
-nav ul li {
-    margin: 15px;
-    padding: 10px 20px;
-    color: #000000;
-    font-weight: bold;
-}
-
-nav ul li a {
-    color: #000000;
-    font-weight: bold;
-}
-
-nav ul li:hover {
-    background-color: #45454514;
-    border-radius: 10px;
-    transition: all 0.5s ease-in-out;
+li:hover {
+    background-color: #f2f2f2;
+    border: 1px dotted #000000;
 }
 
 #recepcao {
-    text-align: center;
     padding: 50px 20px;
     background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .Nome {
@@ -59,47 +63,24 @@ nav ul li:hover {
     color: #333;
 }
 
-#carrosselImages {
+footer{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 20px;
-    background-color: #fff;
-    height: auto;
 }
 
-#carrosselImages img {
-    margin: 0 10px;
+/* #redes_sociais {
+    display: flex;
+    justify-content: center;
+} */
+
+#redes_sociais img{
+    width: 40px;
+    margin-top: 5px;
 }
 
-#carrosselImages img[src="images/Seta_Left.png"],
-#carrosselImages img[src="images/Seta.png"] {
-    width: 30px; /* Diminuindo o tamanho das setas */
-    height: auto;
-}
-
-footer {
-    background-color: #0f0f0fdc;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-footer img#logo {
-    width: 75px;
-}
-
-footer span {
-    display: block;
-    margin: 4px;
-}
-
-footer #redes_sociais {
-    margin: 10px 0;
-    text-align: center;
-}
-
-footer #redes_sociais a img {
-    width: 30px;
-    margin: 0 5px;
+#logo1 {
+    width: 45px;
+    display: flex;
 }
