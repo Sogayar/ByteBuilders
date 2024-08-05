@@ -82,10 +82,23 @@ footer{
     justify-content: center;
 } */
 
-#redes_sociais img{
+.Whatsapp {
+    width: 40px;
+}
+
+.GitHub-Symbol {
+    margin-top: 5px;
+    width: 75px;
+}
+.Linkedin {
+    margin-top: 5px;
+    width: 45px;
+}
+
+/* #redes_sociais img{
     width: 40px;
     margin-top: 5px;
-}
+} */
 
 #logo1 {
     width: 45px;
