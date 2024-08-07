@@ -44,7 +44,7 @@ To get started with the ByteBuilders project, follow the instructions below.
 
 ### Project Structure
 
-3. ```
+3.
 ByteBuilders/
      │
      │
