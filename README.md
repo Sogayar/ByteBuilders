@@ -40,17 +40,17 @@ To get started with the ByteBuilders project, follow the instructions below.
 ## Usage
 
 2. To use this aplication
-    1. Run the Flask application:
+  1. Run the Flask application:
 ``` 
 python app.py 
 ```
-    2. Open your browser and navigate to http://127.0.0.1:5000/ to view the site.
+  2. Open your browser and navigate to http://127.0.0.1:5000/ to view the site.
 
 
 
 ## Project Structure
 
-3. 
+3. The Project Structure
 ```
 ByteBuilders/
     │
@@ -86,20 +86,28 @@ ByteBuilders/
 
 
 ## Routes
-4.
-    For now, there is only this pages
+4. This is the routes that our aplication have
 
 - /: Home page
 - /login: Login page
 - /<nome_usuario>: User profile page
 
 ## Contributing
-5.
+5. You can help this projects too
 Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
 Fork the repository.
-Create a new branch: git checkout -b feature-name
+Create a new branch: 
+```
+git checkout -b feature-name
+```
 Make your changes.
-Commit your changes: git commit -m 'Add some feature'
-Push to the branch: git push origin feature-name
-Submit a pull request.
+Commit your changes: 
+```
+git commit -m 'Add some feature'
+```
+Push to the branch: 
+```
+git push origin feature-name
+```
+Submit a pull request!!
