@@ -41,8 +41,9 @@ To get started with the ByteBuilders project, follow the instructions below.
 
 2. To use this aplication
     1. Run the Flask application:
-
-``` python app.py ```
+``` 
+python app.py 
+```
     2. Open your browser and navigate to http://127.0.0.1:5000/ to view the site.
 
 
@@ -81,6 +82,7 @@ ByteBuilders/
     │
     │
     └── README.md
+```
 
 
 ### Routes
