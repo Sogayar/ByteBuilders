@@ -15,7 +15,7 @@ ByteBuilders is a web application designed to showcase our tech business. The pr
 3. [Project Structure](#project-structure)
 4. [Routes](#routes)
 5. [Contributing](#contributing)
-6. [License](#license)
+<!-- 6. [License](#license) -->
 
 ## Installation
 
@@ -26,6 +26,9 @@ To get started with the ByteBuilders project, follow the instructions below.
 - Python 3.7+
 - Flask
 - MySQL (or any other database if needed)
+
+
+# Later we will add how to install all the project
 
 ### Setting Up the Project
 
