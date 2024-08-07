@@ -62,12 +62,6 @@ ByteBuilders/
       │    │── config.py 
       │    └── models.py 
       │
-      │
-      │── templates/ --> Caetano
-      │    │── index.html 
-      │    ├── login.html ### Necessário Criar
-      │    └── perfil.html ### Necessário Criar
-      │
       │── static/ --> Caetano
       │    │── css/ 
       │    │    └── styles.css
@@ -80,6 +74,11 @@ ByteBuilders/
       │    └── img/ 
       │         └── Imagens
       │         └── Imagens_Carrossel
+      │
+      │── templates/ --> Caetano
+      │    │── index.html 
+      │    ├── login.html ### Necessário Criar
+      │    └── perfil.html ### Necessário Criar
       │
       │
       └── README.md
