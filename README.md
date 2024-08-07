@@ -45,7 +45,8 @@ To get started with the ByteBuilders project, follow the instructions below.
 ### Project Structure
 
 3. 
-```ByteBuilders/
+```
+ByteBuilders/
     │
     │
     │
@@ -74,4 +75,5 @@ To get started with the ByteBuilders project, follow the instructions below.
     │         └── Imagens_Carrossel
     │
     │
-    └── README.md```
+    └── README.md
+    ```
