@@ -34,3 +34,44 @@ To get started with the ByteBuilders project, follow the instructions below.
    ```sh
    git clone https://github.com/sogayar/bytebuilders.git
    cd bytebuilders
+
+
+
+### Usage
+
+2. We will add
+
+
+### Project Structure
+
+3. ```
+ByteBuilders/
+     │
+     │
+     │
+     │── api/ --> Henrique
+     │     │── app.py ### Não está funcionando esta merda
+     │     │── config.py 
+     │     └── models.py 
+     │
+     │
+     │── templates/ --> Caetano
+     │     │── index.html 
+     │     ├── login.html ### Necessário Criar
+     │     └── perfil.html ### Necessário Criar
+     │
+     │── static/ --> Caetano
+     │     │── css/ 
+     │     │    └── styles.css
+     │     │    └── carrocel_styles.css
+     │     │    └── *OUTROS ARQUIVOS CSS*
+     │     │── js/ 
+     │     │    └── script.js
+     │     │    └── carrocel_styles.css
+     │     │    └── *OUTROS ARQUIVOS JS*
+     │     └── img/ 
+     │          └── Imagens
+     │          └── Imagens_Carrossel
+     │
+     │
+     └── README.md
