@@ -15,19 +15,19 @@ ByteBuilders is a web application designed to showcase our tech business. The pr
 3. [Project Structure](#project-structure)
 4. [Routes](#routes)
 5. [Contributing](#contributing)
-6. [License](#license)
+<!-- 6. [License](#license) -->
 
 ## Installation
 
 To get started with the ByteBuilders project, follow the instructions below.
 
-### Prerequisites
+## Prerequisites
 
 - Python 3.7+
 - Flask
 - MySQL (or any other database if needed)
 
-### Setting Up the Project
+## Setting Up the Project
 
 1. Clone the repository:
 
@@ -37,7 +37,7 @@ To get started with the ByteBuilders project, follow the instructions below.
 
 
 
-### Usage
+## Usage
 
 2. To use this aplication
     1. Run the Flask application:
@@ -48,7 +48,7 @@ python app.py
 
 
 
-### Project Structure
+## Project Structure
 
 3. 
 ```
@@ -85,7 +85,7 @@ ByteBuilders/
 ```
 
 
-### Routes
+## Routes
 4.
     For now, there is only this pages
 
@@ -93,7 +93,7 @@ ByteBuilders/
 - /login: Login page
 - /<nome_usuario>: User profile page
 
-### Contributing
+## Contributing
 5.
 Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
