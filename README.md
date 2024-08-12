@@ -6,7 +6,7 @@
 
 # Overview
 
-### ByteBuilders is a web application designed to showcase our tech business. The project includes a frontend developed with HTML, CSS and JS and a backend using Flask in Python.
+## ByteBuilders is a web application designed to showcase our tech business. The project includes a frontend developed with HTML, CSS and JS and a backend using Flask in Python.
 
 # Table of Contents
 
@@ -19,7 +19,9 @@
 
 # Installation
 
+
 ## To get started with the ByteBuilders project, follow the instructions below.
+
 
 # Prerequisites
 
@@ -29,7 +31,9 @@
 
 # Setting Up the Project
 
+
 ## 1. Clone the repository:
+
 
 ```
    git clone https://github.com/sogayar/bytebuilders.git
@@ -39,26 +43,27 @@
 ```
 
 
-# Usage
-## 2. To use this aplication
-  ### 1. Run the Flask application:
+
+## Usage
+### 2. To use this aplication
+  #### 1. Run the Flask application:
 ``` 
 python app.py 
 ```
-  ### 2. Open your browser and navigate to http://127.0.0.1:5000/ to view the site.
+  #### 2. Open your browser and navigate to http://127.0.0.1:5000/ to view the site
 
 
 
 # Project Structure
 
-## 3. The Project Structure
+### 3. The Project Structure
+
 ```
 ByteBuilders/
       │
       │
       │
-      │── api/ --> Henrique
-      │    │── app.py ### Não está funcionando esta merda
+      │── api/ --> Henrique 
       │    │── config.py 
       │    └── models.py 
       │
@@ -77,37 +82,42 @@ ByteBuilders/
       │
       │── templates/ --> Caetano
       │    │── index.html 
-      │    ├── login.html ### Necessário Criar
+      │    ├── login.html
       │    └── perfil.html ### Necessário Criar
+      │
+      │── app.py
       │
       │
       └── README.md
 ```
 
 
-# Routes
-## 4. This is the routes that our aplication have
+## Routes
+### 4. This is the routes that our aplication have
+
 
 #### - /: Home page
 #### - /login: Login page
 #### - /<nome_usuario>: User profile page
 
-# Contributing
-## 5. You can help this projects too
-#### Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-#### Fork the repository.
-#### Create a new branch: 
+## Contributing
+### 5. You can help this projects too
+Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
+Fork the repository.
+Create a new branch: 
 ```
 git checkout -b feature-name
 ```
-#### Make your changes.
-#### Commit your changes: 
+Make your changes.
+Commit your changes: 
 ```
 git commit -m 'Add some feature'
 ```
-#### Push to the branch: 
+Push to the branch: 
 ```
 git push origin feature-name
 ```
-#### Submit a pull request!!
+Submit a pull request!!
+
