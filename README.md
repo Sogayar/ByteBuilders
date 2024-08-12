@@ -4,11 +4,11 @@
   <a href="https://www.linkedin.com/in/henrique-sogayar-293bab1ba" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 
-## Overview
+# Overview
 
-#### ByteBuilders is a web application designed to showcase our tech business. The project includes a frontend developed with HTML, CSS and JS and a backend using Flask in Python.
+## ByteBuilders is a web application designed to showcase our tech business. The project includes a frontend developed with HTML, CSS and JS and a backend using Flask in Python.
 
-## Table of Contents
+# Table of Contents
 
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -17,19 +17,23 @@
 5. [Contributing](#contributing)
 <!-- 6. [License](#license) -->
 
-## Installation
+# Installation
 
-### To get started with the ByteBuilders project, follow the instructions below.
 
-## Prerequisites
+## To get started with the ByteBuilders project, follow the instructions below.
 
-- Python 3.7+
-- Flask
-- MySQL (or any other database if needed)
 
-## Setting Up the Project
+# Prerequisites
 
-### 1. Clone the repository:
+#### - Python 3.7+
+#### - Flask
+#### - MySQL (or any other database if needed)
+
+# Setting Up the Project
+
+
+## 1. Clone the repository:
+
 
 ```
    git clone https://github.com/sogayar/bytebuilders.git
@@ -39,19 +43,21 @@
 ```
 
 
+
 ## Usage
 ### 2. To use this aplication
   #### 1. Run the Flask application:
 ``` 
 python app.py 
 ```
-  #### 2. Open your browser and navigate to http://127.0.0.1:5000/ to view the site.
+  #### 2. Open your browser and navigate to http://127.0.0.1:5000/ to view the site
 
 
 
-## Project Structure
+# Project Structure
 
 ### 3. The Project Structure
+
 ```
 ByteBuilders/
       │
@@ -81,6 +87,7 @@ ByteBuilders/
       │
       │── app.py
       │
+      │
       └── README.md
 ```
 
@@ -88,9 +95,11 @@ ByteBuilders/
 ## Routes
 ### 4. This is the routes that our aplication have
 
-- /: Home page
-- /login: Login page
-- /<nome_usuario>: User profile page
+
+#### - /: Home page
+#### - /login: Login page
+#### - /<nome_usuario>: User profile page
+
 
 ## Contributing
 ### 5. You can help this projects too
@@ -111,3 +120,4 @@ Push to the branch:
 git push origin feature-name
 ```
 Submit a pull request!!
+
