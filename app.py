@@ -11,7 +11,9 @@ def teste():
 def login():
     nome = request.form.get('nome') # o que esta entre 'aspas' deve ser o "name" do input no HTML
     senha = request.form.get('senha') # o que esta entre 'aspas' deve ser o "senha" do input no HTML
-    return redirect('/')
+    print(nome)
+    print(senha)
+    return render_template('index.html')
 
 
 
