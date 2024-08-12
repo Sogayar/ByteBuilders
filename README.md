@@ -57,8 +57,7 @@ ByteBuilders/
       │
       │
       │
-      │── api/ --> Henrique
-      │    │── app.py ### Não está funcionando esta merda
+      │── api/ --> Henrique 
       │    │── config.py 
       │    └── models.py 
       │
@@ -77,9 +76,10 @@ ByteBuilders/
       │
       │── templates/ --> Caetano
       │    │── index.html 
-      │    ├── login.html ### Necessário Criar
+      │    ├── login.html
       │    └── perfil.html ### Necessário Criar
       │
+      │── app.py
       │
       └── README.md
 ```
